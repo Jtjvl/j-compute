@@ -4,7 +4,9 @@ Solo consulting site for scientific computing and university research IT.
 
 ## Live demo
 
-https://jtjvl.github.io/j-compute/
+https://j-compute.com/
+
+(Fallback: https://jtjvl.github.io/j-compute/)
 
 ## Local preview
 
@@ -16,4 +18,4 @@ python3 -m http.server 8080
 
 ## Contact
 
-Placeholder: `contact@j-compute.example` — replace when domain mail is ready.
+Placeholder: `contact@j-compute.com` — replace when domain mail is ready.
