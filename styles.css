@@ -38,9 +38,14 @@ body {
   padding: .9rem 0; gap: 1rem;
 }
 .logo {
+  display: inline-flex; align-items: center; gap: .55rem;
   font-family: var(--font); font-weight: 700; font-size: 1.2rem;
   color: var(--ink); text-decoration: none; letter-spacing: .02em;
 }
+.logo-mark {
+  width: 2.25rem; height: 2.25rem; flex: 0 0 auto; display: block;
+}
+.logo-wordmark { line-height: 1; }
 nav { display: flex; flex-wrap: wrap; gap: .85rem 1.1rem; }
 nav a { color: var(--ink-soft); text-decoration: none; font-size: .95rem; }
 nav a:hover { color: var(--accent); }
@@ -119,4 +124,5 @@ nav a:hover { color: var(--accent); }
 .site-footer a { color: var(--ink-soft); }
 @media (max-width: 640px) {
   .site-header .wrap { flex-direction: column; align-items: flex-start; }
+  .logo-mark { width: 2rem; height: 2rem; }
 }

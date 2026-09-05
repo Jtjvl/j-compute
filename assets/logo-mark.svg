@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="J-compute circuit-board letter J">
+  <rect width="256" height="256" fill="#ffffff"/>
+  <g fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="#147A72" d="M46 50 H138 V90 H176 V126"/>
+    <path stroke="#147A72" d="M176 90 H218"/>
+    <path stroke="#1A365D" d="M90 154 H218"/>
+    <path stroke="#1A365D" d="M176 142 V198 C176 226 82 226 82 198 V166"/>
+    <path stroke="#1A365D" d="M128 214 V178"/>
+  </g>
+  <circle cx="46" cy="50" r="12" fill="#147A72"/>
+  <circle cx="218" cy="90" r="12" fill="#147A72"/>
+  <circle cx="218" cy="154" r="12" fill="#1A365D"/>
+  <circle cx="128" cy="178" r="12" fill="#1A365D"/>
+  <circle cx="82" cy="166" r="12" fill="#1A365D"/>
+</svg>
