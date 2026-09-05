@@ -1,5 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="J-compute circuit-board letter J">
-  <rect width="256" height="256" fill="#ffffff"/>
   <g fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
     <path stroke="#147A72" d="M46 50 H138 V90 H176 V126"/>
     <path stroke="#147A72" d="M176 90 H218"/>
