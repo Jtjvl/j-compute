@@ -1,4 +1,4 @@
-const CONTACT_EMAIL = "jurgen@j-compute.com";
+const CONTACT_EMAIL = "contact@j-compute.com";
 
 const btn = document.querySelector("[data-copy-email]");
 const email = document.querySelector("#email");
