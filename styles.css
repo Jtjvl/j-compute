@@ -111,6 +111,7 @@ nav a:hover { color: var(--accent); }
 .contact-line { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; margin: 1.25rem 0; }
 .contact-line a { font-size: 1.15rem; color: var(--accent); font-weight: 600; }
 .note { font-size: .9rem; color: var(--ink-soft); }
+.note a { color: var(--accent); }
 .contact-form { display: grid; gap: .9rem; margin-top: 1.5rem; }
 .contact-form label { display: grid; gap: .35rem; font-weight: 600; font-size: .9rem; }
 .contact-form input, .contact-form textarea {
