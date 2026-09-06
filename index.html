@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>J-compute — Scientific computing &amp; research IT</title>
-  <meta name="description" content="Solo practice for scientific computing, systems architecture, and university research IT." />
+  <meta name="description" content="Solo practice for scientific computing, systems architecture, neural network training, bioinformatics tooling, and university research IT." />
   <link rel="canonical" href="https://j-compute.com/" />
   <link rel="icon" href="./favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32.png" />
@@ -13,13 +13,13 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://j-compute.com/" />
   <meta property="og:title" content="J-compute — Scientific computing &amp; research IT" />
-  <meta property="og:description" content="Solo practice for scientific computing, systems architecture, and university research IT." />
+  <meta property="og:description" content="Solo practice for scientific computing, systems architecture, neural network training, bioinformatics tooling, and university research IT." />
   <meta property="og:image" content="https://j-compute.com/assets/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="J-compute — Scientific computing &amp; research IT" />
-  <meta name="twitter:description" content="Solo practice for scientific computing, systems architecture, and university research IT." />
+  <meta name="twitter:description" content="Solo practice for scientific computing, systems architecture, neural network training, bioinformatics tooling, and university research IT." />
   <meta name="twitter:image" content="https://j-compute.com/assets/og-image.png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -60,7 +60,7 @@
         <ul class="cards">
           <li>
             <h3>Scientific computing</h3>
-            <p>HPC-minded workflows, numerical pipelines, data handling, and performance work for research groups.</p>
+            <p>HPC-minded workflows, numerical pipelines, neural network training support, bioinformatics tooling, data handling, and performance work for research groups.</p>
           </li>
           <li>
             <h3>Systems architecture</h3>
@@ -102,28 +102,28 @@
       <div class="wrap narrow">
         <h2>About</h2>
         <p>J-compute is a solo practice. One person for programming and systems architecture — useful when you need depth and accountability without a large vendor footprint.</p>
-        <p>Typical clients: university departments and research environments that need scientific computing support and durable IT design.</p>
+        <p>Experience spans scientific computing and research IT, including neural network training and bioinformatics tooling, for university departments and research environments that need durable systems as much as clever code.</p>
       </div>
     </section>
 
     <section id="contact" class="section muted">
       <div class="wrap narrow">
         <h2>Contact</h2>
-        <p>Email is the best starting point. Domain mail is still being set up — for now use the placeholder below or say hello through your usual channel.</p>
+        <p>Email is the best starting point. A short note with context, timeline, and constraints is enough — I usually reply within one business day.</p>
         <p class="contact-line">
-          <a id="email" href="mailto:contact@j-compute.com">contact@j-compute.com</a>
+          <a id="email" href="mailto:jurgen@j-compute.com">jurgen@j-compute.com</a>
           <button type="button" class="btn small" data-copy-email>Copy</button>
         </p>
-        <p class="note">Mailbox coming with Stalwart on the VPS — address reserved for now.</p>
-        <form class="contact-form" action="mailto:contact@j-compute.com" method="get" enctype="text/plain">
+        <form class="contact-form" id="contact-form" novalidate>
           <label>Subject
-            <input name="subject" type="text" placeholder="Brief topic" required />
+            <input id="contact-subject" name="subject" type="text" placeholder="Brief topic" required autocomplete="off" />
           </label>
           <label>Message
-            <textarea name="body" rows="5" placeholder="Context, timeline, constraints…" required></textarea>
+            <textarea id="contact-body" name="body" rows="5" placeholder="Context, timeline, constraints…" required></textarea>
           </label>
           <button class="btn primary" type="submit">Open in mail app</button>
         </form>
+        <p class="note">Prefer your own client? Write directly to <a href="mailto:jurgen@j-compute.com">jurgen@j-compute.com</a>.</p>
       </div>
     </section>
   </main>
@@ -131,7 +131,7 @@
   <footer class="site-footer">
     <div class="wrap">
       <span>J-compute · independent practice</span>
-      <a href="mailto:contact@j-compute.com">contact@j-compute.com</a>
+      <a href="mailto:jurgen@j-compute.com">jurgen@j-compute.com</a>
     </div>
   </footer>
   <script src="script.js"></script>
